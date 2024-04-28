@@ -34,8 +34,10 @@ This dataset contains a curated collection of news articles scraped from the Ind
 * label : Semantic of the articles
 * Manipulated Titles: Titles of some articles have been artificially altered to change their sentiment.
 
-Text manipulation is done for all the 20,000 instances
-Image Face Attribute has been done for 75 original images.
+Text manipulation is done for all the 20,000 instances (using [Flair](https://github.com/flairNLP/flair) )
+
+
+Image Face Attribute has been done for 75 original images. ( using [Media.ai](https://www.media.io/lab/ai-face-editor/) )
 
 
 ## Sample Dataset

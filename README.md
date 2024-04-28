@@ -34,6 +34,9 @@ This dataset contains a curated collection of news articles scraped from the Ind
 * label : Semantic of the articles
 * Manipulated Titles: Titles of some articles have been artificially altered to change their sentiment.
 
+Text manipulation is done for all the 20,000 instances
+Image Face Attribute has been done for 75 original images.
+
 
 ## Sample Dataset
 1. For images
@@ -117,6 +120,7 @@ This dataset contains a curated collection of news articles scraped from the Ind
 </table>
 
 2. Text Manipulation
+   
 
    <table>
   <tr>

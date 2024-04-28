@@ -4,6 +4,11 @@
 
 This dataset contains a curated collection of news articles scraped from the Indian Express website, accompanied by manipulated titles and facial expressions. The dataset was created as part of a course project and aims to facilitate research in fake news detection, text summarization, natural language processing, and computer vision.
 
+## Motivation
+The creation of this dataset was motivated by the pressing need to address the proliferation of misinformation, propaganda, and fake news within the Indian media landscape. Leveraging both textual and visual data. This dataset aims to fill a critical gap in existing research by providing a comprehensive collection of news articles paired with manipulated titles and facial expressions, empowering researchers and practitioners to study and combat media manipulation more effectively.
+
+-----
+
 ## Contents
 
 ### 1. Dataset folder
@@ -14,6 +19,8 @@ This dataset contains a curated collection of news articles scraped from the Ind
 ### 2. Code notebooks
 * The pre_process.ipynb file shows code of data scraping and preprocessing along with **Text Manipulation**
 * The file data_analysis.ipynb conatins code of various analysis done on the dataset.
+
+------
 
 ## Dataset Details
 
@@ -37,8 +44,20 @@ This dataset contains a curated collection of news articles scraped from the Ind
 Text manipulation is done for all the 20,000 instances (using [Flair](https://github.com/flairNLP/flair) )
 
 
-Image Face Attribute has been done for 75 original images. ( using [Media.ai](https://www.media.io/lab/ai-face-editor/) )
+Image Face Attribute has been done for 75 original images. ( using [Media AI](https://www.media.io/lab/ai-face-editor/) )
 
+------
+
+## Collection Process 
+
+The dataset collection process involved the following steps:
+
+1. Web Scraping and image Acquisition: News data, including titles and descriptions, was scraped from the Indian Express website. Image URLs were also extracted from publicly available datasets.  Images corresponding to the news articles were downloaded from the extracted URLs and stored locally
+2. Facial Attribute Manipulation: Images underwent manual filtering and facial attribute manipulation using AI tools like [Media AI](https://www.media.io/lab/ai-face-editor/) , altering facial expressions.
+3. Sentiment Analysis: Each news article received sentiment labels (Positive, Negative, Neutral) based on its description using the   [Flair](https://github.com/flairNLP/flair) library .
+4. Title Manipulation: Fake or manipulated titles were generated for each article based on its sentiment label, transforming them accordingly.
+
+-----
 
 ## Sample Dataset
 1. For images
@@ -162,12 +181,19 @@ Image Face Attribute has been done for 75 original images. ( using [Media.ai](ht
 ### 4. Word Cloud for words in Article
 <img src="https://github.com/A-Shubhi/DA323_Indian_Media_Dataset/assets/95265187/9e4799a0-4afa-4fce-a90a-5f2d216a0697" width="200" height="200" />
 
+-----
 
+## Potential Uses
+* Sentiment analysis
+* Text summarization
+* Fake news detection
+* Image captioning
+* Multi-modal analysis
+-----
 
-
-
-
+## Maintenance
+The dataset will be periodically updated to correct labeling errors, add new instances, or delete instances as necessary. Updates will be communicated through the repository.
 
 ----- 
 ## License
-This dataset is provided under the Creative Commons Attribution 4.0 International License. You are free to use, distribute, and modify the dataset for any purpose, even commercially, as long as you give appropriate credit to the source.
+This dataset is provided under the Creative Commons Attribution 4.0 International License. You are free to use, distribute, and modify the dataset for any purpose, even commercially, as long as you give appropriate credit to the source. Please refer to the LICENSE file for more information. Copyright is retained by the dataset owner.

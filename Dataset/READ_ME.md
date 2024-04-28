@@ -137,3 +137,12 @@ This dataset contains a curated collection of news articles scraped from the Ind
   </tr>
   <!-- Add more rows as needed -->
 </table>
+
+-----
+## Data Analysis
+
+### 1. Distribution of Article Length
+
+----- 
+## License
+This dataset is provided under the Creative Commons Attribution 4.0 International License. You are free to use, distribute, and modify the dataset for any purpose, even commercially, as long as you give appropriate credit to the source.

@@ -142,6 +142,20 @@ This dataset contains a curated collection of news articles scraped from the Ind
 ## Data Analysis
 
 ### 1. Distribution of Article Length
+![Screenshot (349)](https://github.com/A-Shubhi/DA323_Indian_Media_Dataset/assets/95265187/1a77a1a7-5675-473b-ab6b-2cecb165558f)
+
+
+![Screenshot (352)](https://github.com/A-Shubhi/DA323_Indian_Media_Dataset/assets/95265187/0a11d4ab-3064-4d46-b6da-4f9c014275c9)
+
+
+![Screenshot (350)](https://github.com/A-Shubhi/DA323_Indian_Media_Dataset/assets/95265187/fd18a7a3-41ad-4e35-b7cf-4ccb86c448a3)
+
+Word Cloud for words in Article
+![Screenshot (351)](https://github.com/A-Shubhi/DA323_Indian_Media_Dataset/assets/95265187/9e4799a0-4afa-4fce-a90a-5f2d216a0697)
+
+
+
+
 
 ----- 
 ## License
